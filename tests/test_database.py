@@ -14,7 +14,6 @@ class TestDatabase:
 
         assert name == bun_name and price == bun_price
 
-
     @pytest.mark.parametrize("index, ingredient_type, ingredient_name, ingredient_price", Data.database_ingredients)
     def test_database_available_ingredients_success(self, index, ingredient_type, ingredient_name, ingredient_price):
         self.database = Database()
