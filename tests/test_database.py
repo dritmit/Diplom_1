@@ -1,5 +1,5 @@
 import pytest
-from database import Database
+from praktikum.database import Database
 from data import Data
 
 

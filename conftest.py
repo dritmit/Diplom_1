@@ -1,7 +1,7 @@
 from data import Data
 import pytest
-from bun import Bun
-from ingredient import Ingredient
+from praktikum.bun import Bun
+from praktikum.ingredient import Ingredient
 
 
 @pytest.fixture(scope="function")
